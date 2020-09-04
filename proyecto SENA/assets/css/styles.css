@@ -1,0 +1,163 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#header{
+    background-color:#30A1FF;
+    width: 100%;
+    height: 180px;
+    
+}
+
+#logo{
+    margin: 0px;
+    padding: 9px;
+
+}
+#logo img{
+    width: 250px;
+    height: 90px;
+}
+.menu lu{
+    margin: 0px;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #FAF5FC  ;
+    width: 90%;
+    max-width: 1000px;
+    height: 59px;
+    margin: auto;
+    border-radius: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 0px;
+    padding: 20px;
+    display: block;
+    
+}
+.menu li{
+    display: inline-block;
+    text-align: left;
+    
+}
+.menu li a:hover{
+    background: #AFFB59;
+}
+
+#contenedor img{
+    
+    width: 700px;
+    height: 400px;
+
+}
+
+#contenedor {
+    width: 700px;
+    margin: -13px auto;
+    overflow: hidden;
+}
+#contenedor ul{
+    list-style: none;
+    width: 2800px;
+    display: flex;
+    margin: 11px;
+
+    animation: slide 20s infinite alternate;
+}
+
+@keyframes slide {
+    0% {margin-left: 0px;}
+    20% {margin-left: 0px;}
+
+    25% {margin-left: -740px;}
+    45% {margin-left: -740px;}
+
+    50% {margin-left: -1440px;}
+    70% {margin-left: -1440px;}
+
+    75% {margin-left: -2140px;}
+    100% {margin-left: -2140px;}
+}
+
+
+.container{
+    margin-left: 165px;
+    margin-right: 151px; 
+    width: auto;
+    height: 500px;
+    background-color: #F3F7FA ;
+    overflow: hidden;
+}
+
+.cuadros{
+    align-content: center;
+}
+#item{
+    margin: 1em;
+    padding: 1em;
+    width: 280px;
+    height: 435px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #00C9FF;
+    color: rgb(255, 255, 255);
+    float: left;
+}
+#item img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50px;
+}
+#item2{
+    margin: 1em;
+    padding: 1em;
+    width: 280px;
+    height: 435px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #00C9FF;
+    color:  rgb(255, 255, 255);
+    float: left;
+}
+#item2 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50px;
+}
+#item3{
+    margin: 1em;
+    padding: 1em;
+    width: 280px;
+    height: 435px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #00C9FF;
+    color:  rgb(255, 255, 255);
+    float: left;
+}
+#item3 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50px;
+}
+
+
+#pie{
+    width: 100%;
+    height: 55zpx;
+    background-color: chartreuse;
+}
+
+/*#pie p{
+    margin: 0%;
+
+}*/
+.center{
+    color: black;
+    text-align: center;
+}

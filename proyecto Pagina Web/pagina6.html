@@ -13,10 +13,11 @@
             var nombre = document.getElementById("nombre").value;
             var direccion = document.getElementById("direccion").value;
             var fecha = document.getElementById("fecha").value;
+    
             alert("Gracias por tu compra  "+nombre+"la direccion en la que se realizara la instalacion es "
-            +direccion+ " la fecha es "+fecha);
+            +direccion+ " y la fecha que elejiste es "+fecha);
 
-            alert("*** Recuerda que estamos para ayudarte ***");
+            alert("*** Recuerda, Estamos para ayudarte ***");
         }
     
     
@@ -49,22 +50,20 @@
 
         <div id="formulario">
             <br>
-            <h3>Solicitar Servicios</h3>
+            <br>
             <img src="assets/IMG/logocompra.jpg" alt="">
             <br>
-            <br>
-            <form action="" autocomplete="off">
-                <label for="nombre">Nombre: <input id="nombre" placeholder="Nombre: "></label>
-                <br>
-                <br>
-                <label for="direccion">Direccion: <input type="direccion" id="direccion" placeholder="Direccion"></label>
-                <br>
-                <br>
-                <label for="start"> Fecha:<input type="date" id="fecha" name="trip-start"></label>
-                <br>
-                <br>
-                <button onclick="joker()" id="btn1">Aceptar</button>
+            <h2>Ingresa tus Datos</h2>
+            <form action="" autocomplete="off" id="formu">
+
+                    <p>Nombre:<input id="nombre" placeholder="Nombre Completo "></p>
+                    <p>Direccion:<input type="direccion" id="direccion" placeholder="Ingresa tu dureccion"></p>
+                    <p>Fecha:<input type="date" id="fecha" name="trip-start"></p>
             </form>
+            <br>
+            <div class="boton">
+                <button onclick="joker()" id="btn1" >Guardar Informacion</button>
+            </div>
         </div>
         
         
